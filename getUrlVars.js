@@ -7,7 +7,7 @@ function getUrlVars() {
     return vars;
 }
 
-//El texto de la etiqueta h2 es el valor de la variable 'var'(nombre de la varible GET)
+//El texto de la etiqueta h1 es el valor de la variable 'var'(nombre de la varible GET)
 jQuery(function($){
     $('h1').text(getUrlVars()["kw"])
 });
